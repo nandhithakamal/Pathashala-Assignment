@@ -34,5 +34,11 @@ public class TestDrive{
         System.out.print("Enter a number: ");
         n = scanner.nextInt();
         it.printTriangle(n);
+
+        System.out.println("\nDiamond triangle");
+        Diamond d = new Diamond();
+        System.out.print("Enter a number: ");
+        n = scanner.nextInt();
+        d.printDiamond(n);
     }
 }
