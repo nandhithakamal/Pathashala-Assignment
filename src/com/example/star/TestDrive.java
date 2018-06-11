@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TestDrive{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\nStar");
+        System.out.println("Star");
         Star s = new Star();
         s.printStar();
 
@@ -28,5 +28,11 @@ public class TestDrive{
         System.out.print("Enter a number: ");
         n = scanner.nextInt();
         rt.printTriangle(n);
+
+        System.out.println("\nIsosceles triangle");
+        IsoscelesTriangle it = new IsoscelesTriangle();
+        System.out.print("Enter a number: ");
+        n = scanner.nextInt();
+        it.printTriangle(n);
     }
 }
