@@ -35,10 +35,17 @@ public class TestDrive{
         n = scanner.nextInt();
         it.printTriangle(n);
 
-        System.out.println("\nDiamond triangle");
+        System.out.println("\nDiamond");
         Diamond d = new Diamond();
         System.out.print("Enter a number: ");
         n = scanner.nextInt();
         d.printDiamond(n);
+
+        System.out.println("\nEngraved Diamond");
+        EngravedDiamond ed = new EngravedDiamond();
+        System.out.print("Enter a number: ");
+        n = scanner.nextInt();
+        ed.printDiamond(n);
+
     }
 }
