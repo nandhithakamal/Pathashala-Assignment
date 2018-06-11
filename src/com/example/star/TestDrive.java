@@ -14,5 +14,10 @@ public class TestDrive{
         System.out.print("Enter a number (for the horizontal line): ");
         int n = scanner.nextInt();
         s.printHorizontalLineOfStars(n);
+
+        System.out.println();
+        System.out.print("Enter a number (for the vertical line): ");
+        n = scanner.nextInt();
+        s.printVerticalLineOfStars(n);
     }
 }

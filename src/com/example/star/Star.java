@@ -11,6 +11,12 @@ public class Star {
         }
     }
 
+    public void printVerticalLineOfStars(int n){
+        for(int i = 0; i < n; i++){
+            System.out.println("*");
+        }
+    }
+
 }
 
 
